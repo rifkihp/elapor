@@ -1,0 +1,477 @@
+-- Merging decision tree log ---
+manifest
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:2:1-117:12
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:2:1-117:12
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:2:1-117:12
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:2:1-117:12
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:16:1-30:12
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:16:1-50:12
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:2:1-8:12
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c89f9aa8492c1bf6e53f1916cc94c369\play-services-tasks-10.2.1\AndroidManifest.xml:2:1-5:12
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\2f649cd6a7aa5fde345b1e6cb39a52ea\play-services-basement-10.2.1\AndroidManifest.xml:16:1-23:12
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6923751693eaa906708729a8d46bb7d6\support-v4-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\25d84cbd3952bb890774846dc62b3aad\design-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\cd659758e2e4170c34cac68305eccee3\appcompat-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.daimajia.androidanimations:library:1.1.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\e24b9bcbe9697f07be7ec7631f534392\library-1.1.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.alexzh:circleimageview:1.1.2] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\8522f15e1dd2dae69972f0130a1aa004\circleimageview-1.1.2\AndroidManifest.xml:2:1-16:12
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\334744f759f1a627c840037ce0ff68d7\library-1.1.5\AndroidManifest.xml:2:1-14:12
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\9772f203d67f018801e357b98ae11a81\recyclerview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f3af6969fdde0e2f3f5d32d1bdb71a3f\cardview-v7-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.soundcloud.android:android-crop:1.0.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\a1a0dce20f7b365bc6f12d560353f0ea\android-crop-1.0.1\AndroidManifest.xml:2:1-10:12
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f151aebdbf753d58509f0ee6b80b7357\glide-4.9.0\AndroidManifest.xml:2:1-12:12
+MERGED from [com.edmodo:rangebar:1.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ea1d82b826bfbdd855a18fa4a1dd60c3\rangebar-1.0.0\AndroidManifest.xml:2:1-11:12
+MERGED from [org.sufficientlysecure:html-textview:3.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\170e5c1d4c7826687d7c97f28806dc55\html-textview-3.5\AndroidManifest.xml:2:1-13:12
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7fe0652a00b84d8e25b2d740104767a4\circleimageview-2.1.0\AndroidManifest.xml:2:1-11:12
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\8a1f66837c398bab67b74d535dab3f60\support-media-compat-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\5735fad87c4b0917983bff79a0660b12\support-fragment-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\d69b7bd94618845626ab55a9b175da6f\animated-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\869fc8a65cd91be9d4bb035216692f5e\support-core-ui-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7a27b1084ccb092c571bc0299bcbc4ce\support-core-utils-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\18450f0afcc6a926501ebcf9e87f6a5e\transition-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\0af7c2ae4f73b80cb90fa39837b657e1\support-vector-drawable-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7f2611db749f12937381a81cdaa3e19a\loader-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\d4fbfdac26b57fbec5684879286c1648\viewpager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\739fb349250d9590c93fffe34fc8ac76\coordinatorlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6d283b39ba90e072ce9b5f3133be892e\drawerlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ac676f5f4d91458d55afa1782b7ef4dc\slidingpanelayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f62450fe774b3865447d92ccda1eb96c\customview-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c87a0acc75fe38bea7d03c04f3f86274\swiperefreshlayout-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ca61d370b997d9aa4fba205198ccb931\asynclayoutinflater-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6f1939648634e46e4506e1206b134736\support-compat-28.0.0\AndroidManifest.xml:17:1-24:12
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\54e5d2b4beb8c8a188b95deec1f38128\versionedparcelable-28.0.0\AndroidManifest.xml:17:1-25:12
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6b9f7af43ab03ab0ff01cca3529f19e7\cursoradapter-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\74079541f9d02bfdb97e8f55736287c2\gifdecoder-4.9.0\AndroidManifest.xml:2:1-11:12
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\249f418d54b8089d2cb0dcb88425baaf\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\d574cc60cd6ba7b079741daa2232a64b\documentfile-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\be3ec338b15592e35aad703dd5dc11fd\localbroadcastmanager-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:print:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\66bdca73197a26ec7bd0df7756794415\print-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\48e8463c2542af775269524983f36eae\interpolator-28.0.0\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\b81574f819168b5047a42ec84e6becc2\viewmodel-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\765604faf7f8796a052cb50f679f9afd\livedata-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\13d2e5abb1475305f17927c40e5c8f76\livedata-core-1.1.1\AndroidManifest.xml:17:1-22:12
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\b6cf9a3552b4466da6e0c8f6142c2068\runtime-1.1.1\AndroidManifest.xml:17:1-22:12
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:2:1-117:12
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:2:1-117:12
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:2:1-117:12
+	package
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:5:7-46
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+	android:versionName
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:2:1-117:12
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+	xmlns:tools
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:3:5-51
+	android:versionCode
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:2:1-117:12
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+	xmlns:android
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:4:5-63
+uses-permission#android.permission.INTERNET
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:7:5-67
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:20:5-66
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:20:5-66
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\334744f759f1a627c840037ce0ff68d7\library-1.1.5\AndroidManifest.xml:11:5-67
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\334744f759f1a627c840037ce0ff68d7\library-1.1.5\AndroidManifest.xml:11:5-67
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:7:22-64
+uses-permission#android.permission.ACCESS_NETWORK_STATE
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:8:5-79
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:19:5-78
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:19:5-78
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:8:22-76
+uses-permission#android.permission.WRITE_EXTERNAL_STORAGE
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:9:5-81
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\334744f759f1a627c840037ce0ff68d7\library-1.1.5\AndroidManifest.xml:12:5-81
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\334744f759f1a627c840037ce0ff68d7\library-1.1.5\AndroidManifest.xml:12:5-81
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:9:22-78
+uses-permission#android.permission.READ_EXTERNAL_STORAGE
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:10:5-80
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:10:22-77
+uses-permission#android.permission.CAMERA
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:11:5-65
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:11:22-62
+uses-permission#android.permission.RECORD_AUDIO
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:12:5-71
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:12:22-68
+uses-feature#android.hardware.camera
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:14:5-60
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:14:19-57
+uses-feature#android.hardware.camera.autofocus
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:15:5-70
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:15:19-67
+application
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:17:5-115:16
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:19:5-29:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:28:5-49:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:4:5-7:19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c89f9aa8492c1bf6e53f1916cc94c369\play-services-tasks-10.2.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c89f9aa8492c1bf6e53f1916cc94c369\play-services-tasks-10.2.1\AndroidManifest.xml:4:5-19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\2f649cd6a7aa5fde345b1e6cb39a52ea\play-services-basement-10.2.1\AndroidManifest.xml:19:5-21:19
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\2f649cd6a7aa5fde345b1e6cb39a52ea\play-services-basement-10.2.1\AndroidManifest.xml:19:5-21:19
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\25d84cbd3952bb890774846dc62b3aad\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\25d84cbd3952bb890774846dc62b3aad\design-28.0.0\AndroidManifest.xml:22:5-20
+MERGED from [com.alexzh:circleimageview:1.1.2] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\8522f15e1dd2dae69972f0130a1aa004\circleimageview-1.1.2\AndroidManifest.xml:11:5-14:19
+MERGED from [com.alexzh:circleimageview:1.1.2] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\8522f15e1dd2dae69972f0130a1aa004\circleimageview-1.1.2\AndroidManifest.xml:11:5-14:19
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f151aebdbf753d58509f0ee6b80b7357\glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f151aebdbf753d58509f0ee6b80b7357\glide-4.9.0\AndroidManifest.xml:10:5-20
+MERGED from [org.sufficientlysecure:html-textview:3.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\170e5c1d4c7826687d7c97f28806dc55\html-textview-3.5\AndroidManifest.xml:11:5-20
+MERGED from [org.sufficientlysecure:html-textview:3.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\170e5c1d4c7826687d7c97f28806dc55\html-textview-3.5\AndroidManifest.xml:11:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7fe0652a00b84d8e25b2d740104767a4\circleimageview-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7fe0652a00b84d8e25b2d740104767a4\circleimageview-2.1.0\AndroidManifest.xml:9:5-20
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6f1939648634e46e4506e1206b134736\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6f1939648634e46e4506e1206b134736\support-compat-28.0.0\AndroidManifest.xml:22:5-94
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\54e5d2b4beb8c8a188b95deec1f38128\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\54e5d2b4beb8c8a188b95deec1f38128\versionedparcelable-28.0.0\AndroidManifest.xml:22:5-23:19
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\74079541f9d02bfdb97e8f55736287c2\gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\74079541f9d02bfdb97e8f55736287c2\gifdecoder-4.9.0\AndroidManifest.xml:9:5-20
+	android:appComponentFactory
+		ADDED from [com.android.support:support-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6f1939648634e46e4506e1206b134736\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:22:9-41
+	tools:ignore
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:19:9-48
+	android:icon
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:21:9-43
+	android:allowBackup
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:20:9-35
+	android:theme
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:23:9-40
+	android:networkSecurityConfig
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:18:9-69
+uses-library#org.apache.http.legacy
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:24:9-87
+	android:required
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:24:61-85
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:24:23-60
+activity#elapor.application.com.elapor.SignInActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:26:9-30:20
+	android:screenOrientation
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:28:13-49
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:27:13-45
+	android:configChanges
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:29:13-63
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:26:19-49
+activity#elapor.application.com.elapor.ForgetPasswordActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:34:9-38:20
+	android:screenOrientation
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:36:13-49
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:35:13-45
+	android:configChanges
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:37:13-63
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:34:19-57
+activity#elapor.application.com.elapor.MainActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:40:9-45:20
+	android:screenOrientation
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:43:13-49
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:42:13-45
+	android:configChanges
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:44:7-57
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:41:13-41
+activity#elapor.application.com.elapor.KirimLaporanActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:47:9-52:20
+	android:screenOrientation
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:50:13-49
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:49:13-45
+	android:configChanges
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:51:13-63
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:48:13-49
+activity#elapor.application.com.elapor.ProsesRegistrasiActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:55:9-60:20
+	android:screenOrientation
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:58:13-49
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:57:13-45
+	android:configChanges
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:59:13-63
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:56:13-53
+activity#elapor.application.com.elapor.SplashActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:62:9-71:20
+	android:screenOrientation
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:64:13-49
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:63:13-45
+	android:configChanges
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:65:13-63
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:62:19-49
+intent-filter#action:name:android.intent.action.MAIN+category:name:android.intent.category.LAUNCHER
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:66:13-70:29
+action#android.intent.action.MAIN
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:67:17-69
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:67:25-66
+category#android.intent.category.LAUNCHER
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:69:17-77
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:69:27-74
+activity#elapor.application.com.elapor.AmbilFotoActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:73:9-77:20
+	android:screenOrientation
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:75:13-49
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:74:13-45
+	android:configChanges
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:76:13-63
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:73:19-52
+activity#elapor.application.com.elapor.VideoPlayerActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:79:9-83:20
+	android:screenOrientation
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:81:13-49
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:80:13-45
+	android:configChanges
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:82:13-63
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:79:19-54
+activity#elapor.application.com.elapor.DetailInformasiActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:85:9-89:20
+	android:screenOrientation
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:87:13-49
+	android:label
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:86:13-45
+	android:configChanges
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:88:13-63
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:85:19-58
+activity#com.soundcloud.android.crop.CropImageActivity
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:92:9-82
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:92:19-79
+meta-data#com.google.android.gms.version
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:94:9-96:69
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\2f649cd6a7aa5fde345b1e6cb39a52ea\play-services-basement-10.2.1\AndroidManifest.xml:20:9-121
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\2f649cd6a7aa5fde345b1e6cb39a52ea\play-services-basement-10.2.1\AndroidManifest.xml:20:9-121
+	android:value
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:96:13-66
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:95:13-58
+service#elapor.application.com.elapor.MyFirebaseMessagingService
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:99:9-104:19
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:100:13-55
+intent-filter#action:name:com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:101:13-103:29
+action#com.google.firebase.MESSAGING_EVENT
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:102:17-77
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:102:25-75
+service#elapor.application.com.elapor.MyFirebaseInstanceIDService
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:107:9-112:19
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:108:13-56
+intent-filter#action:name:com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:109:13-111:29
+action#com.google.firebase.INSTANCE_ID_EVENT
+ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:110:17-79
+	android:name
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:110:25-77
+uses-sdk
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c89f9aa8492c1bf6e53f1916cc94c369\play-services-tasks-10.2.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-tasks:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c89f9aa8492c1bf6e53f1916cc94c369\play-services-tasks-10.2.1\AndroidManifest.xml:3:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\2f649cd6a7aa5fde345b1e6cb39a52ea\play-services-basement-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.google.android.gms:play-services-basement:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\2f649cd6a7aa5fde345b1e6cb39a52ea\play-services-basement-10.2.1\AndroidManifest.xml:17:5-43
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6923751693eaa906708729a8d46bb7d6\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-v4:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6923751693eaa906708729a8d46bb7d6\support-v4-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\25d84cbd3952bb890774846dc62b3aad\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:design:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\25d84cbd3952bb890774846dc62b3aad\design-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\cd659758e2e4170c34cac68305eccee3\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:appcompat-v7:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\cd659758e2e4170c34cac68305eccee3\appcompat-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.daimajia.androidanimations:library:1.1.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\e24b9bcbe9697f07be7ec7631f534392\library-1.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.daimajia.androidanimations:library:1.1.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\e24b9bcbe9697f07be7ec7631f534392\library-1.1.0\AndroidManifest.xml:8:5-10:41
+MERGED from [com.alexzh:circleimageview:1.1.2] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\8522f15e1dd2dae69972f0130a1aa004\circleimageview-1.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.alexzh:circleimageview:1.1.2] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\8522f15e1dd2dae69972f0130a1aa004\circleimageview-1.1.2\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\334744f759f1a627c840037ce0ff68d7\library-1.1.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.daimajia.slider:library:1.1.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\334744f759f1a627c840037ce0ff68d7\library-1.1.5\AndroidManifest.xml:7:5-9:41
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\9772f203d67f018801e357b98ae11a81\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:recyclerview-v7:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\9772f203d67f018801e357b98ae11a81\recyclerview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f3af6969fdde0e2f3f5d32d1bdb71a3f\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cardview-v7:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f3af6969fdde0e2f3f5d32d1bdb71a3f\cardview-v7-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.soundcloud.android:android-crop:1.0.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\a1a0dce20f7b365bc6f12d560353f0ea\android-crop-1.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.soundcloud.android:android-crop:1.0.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\a1a0dce20f7b365bc6f12d560353f0ea\android-crop-1.0.1\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f151aebdbf753d58509f0ee6b80b7357\glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.github.bumptech.glide:glide:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f151aebdbf753d58509f0ee6b80b7357\glide-4.9.0\AndroidManifest.xml:6:5-8:41
+MERGED from [com.edmodo:rangebar:1.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ea1d82b826bfbdd855a18fa4a1dd60c3\rangebar-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [com.edmodo:rangebar:1.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ea1d82b826bfbdd855a18fa4a1dd60c3\rangebar-1.0.0\AndroidManifest.xml:7:5-9:41
+MERGED from [org.sufficientlysecure:html-textview:3.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\170e5c1d4c7826687d7c97f28806dc55\html-textview-3.5\AndroidManifest.xml:7:5-9:41
+MERGED from [org.sufficientlysecure:html-textview:3.5] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\170e5c1d4c7826687d7c97f28806dc55\html-textview-3.5\AndroidManifest.xml:7:5-9:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7fe0652a00b84d8e25b2d740104767a4\circleimageview-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [de.hdodenhof:circleimageview:2.1.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7fe0652a00b84d8e25b2d740104767a4\circleimageview-2.1.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\8a1f66837c398bab67b74d535dab3f60\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-media-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\8a1f66837c398bab67b74d535dab3f60\support-media-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\5735fad87c4b0917983bff79a0660b12\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-fragment:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\5735fad87c4b0917983bff79a0660b12\support-fragment-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\d69b7bd94618845626ab55a9b175da6f\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:animated-vector-drawable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\d69b7bd94618845626ab55a9b175da6f\animated-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\869fc8a65cd91be9d4bb035216692f5e\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-ui:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\869fc8a65cd91be9d4bb035216692f5e\support-core-ui-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7a27b1084ccb092c571bc0299bcbc4ce\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-core-utils:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7a27b1084ccb092c571bc0299bcbc4ce\support-core-utils-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\18450f0afcc6a926501ebcf9e87f6a5e\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:transition:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\18450f0afcc6a926501ebcf9e87f6a5e\transition-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\0af7c2ae4f73b80cb90fa39837b657e1\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-vector-drawable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\0af7c2ae4f73b80cb90fa39837b657e1\support-vector-drawable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7f2611db749f12937381a81cdaa3e19a\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:loader:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\7f2611db749f12937381a81cdaa3e19a\loader-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\d4fbfdac26b57fbec5684879286c1648\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:viewpager:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\d4fbfdac26b57fbec5684879286c1648\viewpager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\739fb349250d9590c93fffe34fc8ac76\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:coordinatorlayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\739fb349250d9590c93fffe34fc8ac76\coordinatorlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6d283b39ba90e072ce9b5f3133be892e\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:drawerlayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6d283b39ba90e072ce9b5f3133be892e\drawerlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ac676f5f4d91458d55afa1782b7ef4dc\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:slidingpanelayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ac676f5f4d91458d55afa1782b7ef4dc\slidingpanelayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f62450fe774b3865447d92ccda1eb96c\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:customview:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\f62450fe774b3865447d92ccda1eb96c\customview-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c87a0acc75fe38bea7d03c04f3f86274\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:swiperefreshlayout:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c87a0acc75fe38bea7d03c04f3f86274\swiperefreshlayout-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ca61d370b997d9aa4fba205198ccb931\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:asynclayoutinflater:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ca61d370b997d9aa4fba205198ccb931\asynclayoutinflater-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6f1939648634e46e4506e1206b134736\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:support-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6f1939648634e46e4506e1206b134736\support-compat-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\54e5d2b4beb8c8a188b95deec1f38128\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:versionedparcelable:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\54e5d2b4beb8c8a188b95deec1f38128\versionedparcelable-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6b9f7af43ab03ab0ff01cca3529f19e7\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:cursoradapter:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6b9f7af43ab03ab0ff01cca3529f19e7\cursoradapter-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\74079541f9d02bfdb97e8f55736287c2\gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [com.github.bumptech.glide:gifdecoder:4.9.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\74079541f9d02bfdb97e8f55736287c2\gifdecoder-4.9.0\AndroidManifest.xml:5:5-7:41
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\249f418d54b8089d2cb0dcb88425baaf\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:runtime:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\249f418d54b8089d2cb0dcb88425baaf\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\d574cc60cd6ba7b079741daa2232a64b\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:documentfile:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\d574cc60cd6ba7b079741daa2232a64b\documentfile-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\be3ec338b15592e35aad703dd5dc11fd\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:localbroadcastmanager:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\be3ec338b15592e35aad703dd5dc11fd\localbroadcastmanager-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\66bdca73197a26ec7bd0df7756794415\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:print:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\66bdca73197a26ec7bd0df7756794415\print-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\48e8463c2542af775269524983f36eae\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [com.android.support:interpolator:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\48e8463c2542af775269524983f36eae\interpolator-28.0.0\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\b81574f819168b5047a42ec84e6becc2\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:viewmodel:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\b81574f819168b5047a42ec84e6becc2\viewmodel-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\765604faf7f8796a052cb50f679f9afd\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\765604faf7f8796a052cb50f679f9afd\livedata-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\13d2e5abb1475305f17927c40e5c8f76\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.lifecycle:livedata-core:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\13d2e5abb1475305f17927c40e5c8f76\livedata-core-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\b6cf9a3552b4466da6e0c8f6142c2068\runtime-1.1.1\AndroidManifest.xml:20:5-44
+MERGED from [android.arch.core:runtime:1.1.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\b6cf9a3552b4466da6e0c8f6142c2068\runtime-1.1.1\AndroidManifest.xml:20:5-44
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+	android:targetSdkVersion
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+	android:minSdkVersion
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+		ADDED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+		INJECTED from D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+service#com.google.firebase.messaging.FirebaseMessagingService
+ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:23:9-27:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:23:88-111
+	android:name
+		ADDED from [com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:23:18-87
+uses-permission#android.permission.WAKE_LOCK
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:21:5-67
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:21:22-65
+uses-permission#com.google.android.c2dm.permission.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:22:5-81
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:22:22-79
+permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:24:17-71
+permission#elapor.application.com.elapor.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:24:5-109
+	android:protectionLevel
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:24:72-107
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:24:17-71
+uses-permission#${applicationId}.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:26:22-76
+uses-permission#elapor.application.com.elapor.permission.C2D_MESSAGE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:26:5-78
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:26:22-76
+receiver#com.google.firebase.iid.FirebaseInstanceIdReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:30:9-35:20
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:30:85-108
+	android:permission
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:30:109-169
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:30:19-84
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:31:13-34:29
+intent-filter#action:name:com.google.android.c2dm.intent.RECEIVE+category:name:elapor.application.com.elapor
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:31:13-34:29
+action#com.google.android.c2dm.intent.RECEIVE
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:32:17-80
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:32:25-78
+category#${applicationId}
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:33:27-58
+category#elapor.application.com.elapor
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:33:17-60
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:33:27-58
+receiver#com.google.firebase.iid.FirebaseInstanceIdInternalReceiver
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:39:9-119
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:39:93-117
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:39:19-92
+service#com.google.firebase.iid.FirebaseInstanceIdService
+ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:43:9-47:19
+	android:exported
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:43:83-106
+	android:name
+		ADDED from [com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:43:18-82
+provider#com.google.firebase.provider.FirebaseInitProvider
+ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:9-194
+	android:authorities
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:19-78
+	android:exported
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:144-168
+	android:initOrder
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:169-192
+	android:name
+		ADDED from [com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:79-143

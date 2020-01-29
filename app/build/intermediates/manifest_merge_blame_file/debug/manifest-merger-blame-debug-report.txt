@@ -1,0 +1,303 @@
+1<?xml version="1.0" encoding="utf-8"?>
+2<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+3    package="elapor.application.com.elapor"
+4    android:versionCode="4"
+5    android:versionName="1.4" >
+6
+7    <uses-sdk
+8        android:minSdkVersion="16"
+8-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+9        android:targetSdkVersion="28" />
+9-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml
+10
+11    <uses-permission android:name="android.permission.INTERNET" />
+11-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:7:5-67
+11-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:7:22-64
+12    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+12-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:8:5-79
+12-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:8:22-76
+13    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+13-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:9:5-81
+13-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:9:22-78
+14    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+14-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:10:5-80
+14-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:10:22-77
+15    <uses-permission android:name="android.permission.CAMERA" />
+15-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:11:5-65
+15-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:11:22-62
+16    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+16-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:12:5-71
+16-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:12:22-68
+17
+18    <uses-feature android:name="android.hardware.camera" />
+18-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:14:5-60
+18-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:14:19-57
+19    <uses-feature android:name="android.hardware.camera.autofocus" />
+19-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:15:5-70
+19-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:15:19-67
+20
+21    <uses-permission android:name="android.permission.WAKE_LOCK" />
+21-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:21:5-67
+21-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:21:22-65
+22    <uses-permission android:name="com.google.android.c2dm.permission.RECEIVE" />
+22-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:22:5-81
+22-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:22:22-79
+23
+24    <permission
+24-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:24:5-109
+25        android:name="elapor.application.com.elapor.permission.C2D_MESSAGE"
+25-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:24:17-71
+26        android:protectionLevel="signature" />
+26-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:24:72-107
+27
+28    <uses-permission android:name="elapor.application.com.elapor.permission.C2D_MESSAGE" />
+28-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:26:5-78
+28-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:26:22-76
+29
+30    <application
+30-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:17:5-115:16
+31        android:allowBackup="true"
+31-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:20:9-35
+32        android:appComponentFactory="android.support.v4.app.CoreComponentFactory"
+32-->[com.android.support:support-compat:28.0.0] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\6f1939648634e46e4506e1206b134736\support-compat-28.0.0\AndroidManifest.xml:22:18-91
+33        android:debuggable="true"
+34        android:icon="@mipmap/ic_launcher"
+34-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:21:9-43
+35        android:label="@string/app_name"
+35-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:22:9-41
+36        android:networkSecurityConfig="@xml/network_security_config"
+36-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:18:9-69
+37        android:testOnly="true"
+38        android:theme="@style/AppTheme" >
+38-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:23:9-40
+39        <uses-library
+39-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:24:9-87
+40            android:name="org.apache.http.legacy"
+40-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:24:23-60
+41            android:required="false" />
+41-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:24:61-85
+42
+43        <activity
+43-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:26:9-30:20
+44            android:name="elapor.application.com.elapor.SignInActivity"
+44-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:26:19-49
+45            android:configChanges="orientation|keyboardHidden"
+45-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:29:13-63
+46            android:label="@string/app_name"
+46-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:27:13-45
+47            android:screenOrientation="portrait" >
+47-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:28:13-49
+48        </activity>
+49        <activity
+49-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:34:9-38:20
+50            android:name="elapor.application.com.elapor.ForgetPasswordActivity"
+50-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:34:19-57
+51            android:configChanges="orientation|keyboardHidden"
+51-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:37:13-63
+52            android:label="@string/app_name"
+52-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:35:13-45
+53            android:screenOrientation="portrait" >
+53-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:36:13-49
+54        </activity>
+55        <activity
+55-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:40:9-45:20
+56            android:name="elapor.application.com.elapor.MainActivity"
+56-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:41:13-41
+57            android:configChanges="orientation|keyboardHidden"
+57-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:44:7-57
+58            android:label="@string/app_name"
+58-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:42:13-45
+59            android:screenOrientation="portrait" >
+59-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:43:13-49
+60        </activity>
+61        <activity
+61-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:47:9-52:20
+62            android:name="elapor.application.com.elapor.KirimLaporanActivity"
+62-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:48:13-49
+63            android:configChanges="orientation|keyboardHidden"
+63-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:51:13-63
+64            android:label="@string/app_name"
+64-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:49:13-45
+65            android:screenOrientation="portrait" >
+65-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:50:13-49
+66        </activity>
+67        <activity
+67-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:55:9-60:20
+68            android:name="elapor.application.com.elapor.ProsesRegistrasiActivity"
+68-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:56:13-53
+69            android:configChanges="orientation|keyboardHidden"
+69-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:59:13-63
+70            android:label="@string/app_name"
+70-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:57:13-45
+71            android:screenOrientation="portrait" >
+71-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:58:13-49
+72        </activity>
+73        <activity
+73-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:62:9-71:20
+74            android:name="elapor.application.com.elapor.SplashActivity"
+74-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:62:19-49
+75            android:configChanges="orientation|keyboardHidden"
+75-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:65:13-63
+76            android:label="@string/app_name"
+76-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:63:13-45
+77            android:screenOrientation="portrait" >
+77-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:64:13-49
+78            <intent-filter>
+78-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:66:13-70:29
+79                <action android:name="android.intent.action.MAIN" />
+79-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:67:17-69
+79-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:67:25-66
+80
+81                <category android:name="android.intent.category.LAUNCHER" />
+81-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:69:17-77
+81-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:69:27-74
+82            </intent-filter>
+83        </activity>
+84        <activity
+84-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:73:9-77:20
+85            android:name="elapor.application.com.elapor.AmbilFotoActivity"
+85-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:73:19-52
+86            android:configChanges="orientation|keyboardHidden"
+86-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:76:13-63
+87            android:label="@string/app_name"
+87-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:74:13-45
+88            android:screenOrientation="portrait" >
+88-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:75:13-49
+89        </activity>
+90        <activity
+90-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:79:9-83:20
+91            android:name="elapor.application.com.elapor.VideoPlayerActivity"
+91-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:79:19-54
+92            android:configChanges="orientation|keyboardHidden"
+92-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:82:13-63
+93            android:label="@string/app_name"
+93-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:80:13-45
+94            android:screenOrientation="portrait" >
+94-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:81:13-49
+95        </activity>
+96        <activity
+96-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:85:9-89:20
+97            android:name="elapor.application.com.elapor.DetailInformasiActivity"
+97-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:85:19-58
+98            android:configChanges="orientation|keyboardHidden"
+98-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:88:13-63
+99            android:label="@string/app_name"
+99-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:86:13-45
+100            android:screenOrientation="portrait" >
+100-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:87:13-49
+101        </activity>
+102        <activity android:name="com.soundcloud.android.crop.CropImageActivity" />
+102-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:92:9-82
+102-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:92:19-79
+103
+104        <meta-data
+104-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:94:9-96:69
+105            android:name="com.google.android.gms.version"
+105-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:95:13-58
+106            android:value="@integer/google_play_services_version" />
+106-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:96:13-66
+107
+108        <!-- [START firebase_service] -->
+109        <service android:name="elapor.application.com.elapor.MyFirebaseMessagingService" >
+109-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:99:9-104:19
+109-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:100:13-55
+110            <intent-filter>
+110-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:101:13-103:29
+111                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+111-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:102:17-77
+111-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:102:25-75
+112            </intent-filter>
+113        </service>
+114        <!-- [END firebase_service] -->
+115        <!-- [START firebase_iid_service] -->
+116        <service android:name="elapor.application.com.elapor.MyFirebaseInstanceIDService" >
+116-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:107:9-112:19
+116-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:108:13-56
+117            <intent-filter>
+117-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:109:13-111:29
+118                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+118-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:110:17-79
+118-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:110:25-77
+119            </intent-filter>
+120        </service>
+121        <!-- [END firebase_iid_service] -->
+122
+123
+124        <!--
+125         FirebaseMessagingService performs security checks at runtime,
+126             no need for explicit permissions despite exported="true"
+127        -->
+128        <service
+128-->[com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:23:9-27:19
+129            android:name="com.google.firebase.messaging.FirebaseMessagingService"
+129-->[com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:23:18-87
+130            android:exported="true" >
+130-->[com.google.firebase:firebase-messaging:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\c8b17ad6afdd1dc389ee680409f171e3\firebase-messaging-10.2.1\AndroidManifest.xml:23:88-111
+131            <intent-filter android:priority="-500" >
+131-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:101:13-103:29
+132                <action android:name="com.google.firebase.MESSAGING_EVENT" />
+132-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:102:17-77
+132-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:102:25-75
+133            </intent-filter>
+134        </service>
+135
+136        <receiver
+136-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:30:9-35:20
+137            android:name="com.google.firebase.iid.FirebaseInstanceIdReceiver"
+137-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:30:19-84
+138            android:exported="true"
+138-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:30:85-108
+139            android:permission="com.google.android.c2dm.permission.SEND" >
+139-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:30:109-169
+140            <intent-filter>
+140-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:31:13-34:29
+141                <action android:name="com.google.android.c2dm.intent.RECEIVE" />
+141-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:32:17-80
+141-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:32:25-78
+142
+143                <category android:name="elapor.application.com.elapor" />
+143-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:33:17-60
+143-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:33:27-58
+144            </intent-filter>
+145        </receiver>
+146        <!--
+147 Internal (not exported) receiver used by the app to start its own exported services
+148             without risk of being spoofed.
+149        -->
+150        <receiver
+150-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:39:9-119
+151            android:name="com.google.firebase.iid.FirebaseInstanceIdInternalReceiver"
+151-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:39:19-92
+152            android:exported="false" />
+152-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:39:93-117
+153        <!--
+154 FirebaseInstanceIdService performs security checks at runtime,
+155             no need for explicit permissions despite exported="true"
+156        -->
+157        <service
+157-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:43:9-47:19
+158            android:name="com.google.firebase.iid.FirebaseInstanceIdService"
+158-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:43:18-82
+159            android:exported="true" >
+159-->[com.google.firebase:firebase-iid:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\ccb5a645f93cfb390b43928ac13b8665\firebase-iid-10.2.1\AndroidManifest.xml:43:83-106
+160            <intent-filter android:priority="-500" >
+160-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:109:13-111:29
+161                <action android:name="com.google.firebase.INSTANCE_ID_EVENT" />
+161-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:110:17-79
+161-->D:\Android\AndroidStudioProjects\elapor\app\src\main\AndroidManifest.xml:110:25-77
+162            </intent-filter>
+163        </service>
+164
+165        <provider
+165-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:9-194
+166            android:name="com.google.firebase.provider.FirebaseInitProvider"
+166-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:79-143
+167            android:authorities="elapor.application.com.elapor.firebaseinitprovider"
+167-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:19-78
+168            android:exported="false"
+168-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:144-168
+169            android:initOrder="100" />
+169-->[com.google.firebase:firebase-common:10.2.1] C:\Users\Kiezie\.gradle\caches\transforms-2\files-2.1\4816160eb738e3e8bdbf94e08c204fb3\firebase-common-10.2.1\AndroidManifest.xml:6:169-192
+170    </application>
+171
+172</manifest>

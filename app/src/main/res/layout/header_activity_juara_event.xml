@@ -1,0 +1,152 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+        <!-- RelativeLayout
+            android:id="@+id/detail_atlit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:padding="10dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="5dp"
+            android:layout_marginLeft="5dp"
+            android:background="@drawable/rect" >
+
+            <com.alexzh.circleimageview.CircleImageView
+                android:id="@+id/image"
+                android:layout_width="80dp"
+                android:layout_height="80dp"
+                android:src="@drawable/userdefault"
+                android:scaleType="fitXY"
+                android:layout_marginRight="10dp" />
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:layout_centerVertical="true">
+
+                <customfonts.MyTextView
+                    android:id="@+id/nama"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Nama Atlit"
+                    android:textSize="15dp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/jenis_kelamin"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/nama"
+                    android:text="Laki-laki"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/Tex"
+                    android:textStyle="bold"
+                    android:paddingTop="1dp" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/label_bod"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/jenis_kelamin"
+                    android:text="Tanggal Lahir:"
+                    android:paddingTop="5dp"
+                    android:paddingRight="5dp"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/textSub" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/bod"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/label_bod"
+                    android:layout_toRightOf="@+id/label_bod"
+                    android:text="13-09-1981"
+                    android:paddingTop="5dp"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/Tex"
+                    android:textStyle="bold"  />
+
+                <customfonts.MyTextView
+                    android:id="@+id/label_wtf_gal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/bod"
+                    android:text="WTF GAL:"
+                    android:paddingTop="1dp"
+                    android:paddingRight="5dp"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/textSub" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/wtf_gal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_alignTop="@+id/label_wtf_gal"
+                    android:layout_toRightOf="@+id/label_wtf_gal"
+                    android:text="#11002"
+                    android:paddingTop="1dp"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/Tex"
+                    android:textStyle="bold"  />
+            </RelativeLayout>
+
+        </RelativeLayout -->
+
+        <LinearLayout
+            android:id="@+id/linear_tidak_ada"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:background="@drawable/rect"
+            android:layout_margin="5dp"  >
+
+            <customfonts.MyTextView
+                android:id="@+id/label_tidak_ada"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:textColor="@color/red"
+                android:textSize="16dp"
+                android:padding="16dp"
+                android:gravity="center"
+                android:text="Tidak ada prestasi yang diperoleh!" />
+
+        </LinearLayout>
+
+        <!-- LinearLayout
+            android:id="@+id/linear_title_juara_event"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="#f2f3f4" >
+
+            <customfonts.MyTextView
+                android:id="@+id/title_juara_event"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="Juara Event"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="10dp"
+                android:layout_marginLeft="16dp"
+                android:textSize="16dp"
+                android:textColor="@color/Tex" />
+
+            <customfonts.MyTextView
+                android:id="@+id/total_juara_event"
+                android:layout_width="0dp"
+                android:layout_weight="1"
+                android:layout_height="wrap_content"
+                android:text="(10 event)"
+                android:layout_marginTop="5dp"
+                android:layout_marginRight="16dp"
+                android:textSize="16dp"
+                android:textColor="@color/Tex"
+                android:textStyle="bold" />
+        </LinearLayout -->
+
+</LinearLayout>

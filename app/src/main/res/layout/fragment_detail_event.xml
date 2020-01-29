@@ -1,0 +1,307 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:custom="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white" >
+
+    <!-- include layout="@layout/toolbar_fragment_detail_event"
+        android:id="@+id/toolbar" / -->
+
+    <!-- View
+        android:id="@+id/div0"
+        android:layout_below="@+id/toolbar"
+        android:layout_width="match_parent"
+        android:layout_height="1dp"
+        android:background="@color/strok" / -->
+
+    <RelativeLayout
+        android:id="@+id/main_screen"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent" >
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:scrollbars="none" >
+
+            <RelativeLayout
+                android:id="@+id/layout_utama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+                <elapor.application.com.libs.SliderLayout
+                    android:id="@+id/slider"
+                    android:layout_width="match_parent"
+                    custom:pager_animation_span="1100"
+                    android:layout_height="190dp"
+                    style="@style/AlertDialog.AppCompat.Light"
+                    android:background="#fff" />
+
+                <!--********* DETAIL EVENT *********-->
+                <RelativeLayout
+                    android:id="@+id/detail_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal"
+                    android:paddingTop="10dp"
+                    android:paddingRight="16dp"
+                    android:paddingBottom="10dp"
+                    android:paddingLeft="16dp"
+                    android:layout_below="@+id/slider"
+                    android:background="@drawable/bg_strok" >
+
+                    <com.alexzh.circleimageview.CircleImageView
+                        android:id="@+id/logo_event"
+                        android:layout_width="75dp"
+                        android:layout_height="75dp"
+                        android:src="@drawable/user_icon"
+                        app:view_shadowRadius="1dp"
+                        android:layout_gravity="center"
+                        app:view_shadowDx="1dp"
+                        app:view_shadowDy="0dp"
+                        app:view_borderWidth="0dp"
+                        app:view_borderColor="#cccccc"
+                        android:scaleType="fitXY"
+                        android:adjustViewBounds="true"
+                        android:layout_marginRight="5dp" />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/title"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:text="Nama Event"
+                        android:textSize="15dp"
+                        android:textColor="@color/red"
+                        android:textStyle="bold"
+                        android:layout_toRightOf="@+id/logo_event" />
+
+                    <LinearLayout
+                        android:id="@+id/grup"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:layout_toRightOf="@+id/logo_event"
+                        android:paddingTop="1dp"
+                        android:orientation="horizontal">
+
+                        <customfonts.MyTextView
+                            android:id="@+id/tanggal_event"
+                            android:layout_width="wrap_content"
+                            android:layout_height="wrap_content"
+                            android:layout_below="@+id/title"
+                            android:layout_toRightOf="@+id/logo_event"
+                            android:text="10.11.2019 - 12.11.2019"
+                            android:padding="5dp"
+                            android:textSize="@dimen/textsub"
+                            android:textColor="@color/white"
+                            android:textStyle="bold"
+                            android:background="@drawable/bg_preorder"
+                            android:layout_marginRight="5dp" />
+
+                    </LinearLayout>
+
+                    <customfonts.MyTextView
+                        android:id="@+id/label_lokasi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/grup"
+                        android:layout_toRightOf="@+id/logo_event"
+                        android:text="Lokasi:"
+                        android:paddingTop="5dp"
+                        android:paddingRight="5dp"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/textSub" />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/lokasi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_alignTop="@+id/label_lokasi"
+                        android:layout_toRightOf="@+id/label_lokasi"
+                        android:paddingTop="5dp"
+                        android:text="Lokasi"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/Tex"
+                        android:textStyle="bold"  />
+
+                </RelativeLayout>
+
+                <LinearLayout
+                    android:id="@+id/linear_title_peserta"
+                    android:layout_below="@+id/detail_event"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="horizontal" >
+
+                    <customfonts.MyTextView
+                        android:id="@+id/title_peserta"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:text="Peserta"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="10dp"
+                        android:layout_marginLeft="10dp"
+                        android:textSize="16dp"
+                        android:textColor="@color/Tex"  />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/total_peserta"
+                        android:layout_width="0dp"
+                        android:layout_weight="1"
+                        android:layout_height="wrap_content"
+                        android:text="(10 peserta)"
+                        android:layout_marginTop="10dp"
+                        android:layout_marginRight="16dp"
+                        android:textSize="16dp"
+                        android:textColor="@color/Tex"
+                        android:textStyle="bold" />
+                </LinearLayout>
+
+                <View
+                    android:id="@+id/devider_title_peserta"
+                    android:layout_width="match_parent"
+                    android:layout_height="1dp"
+                    android:background="@color/colordevider"
+                    android:layout_below="@+id/linear_title_peserta"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginBottom="10dp"/>
+
+                <elapor.application.com.libs.ExpandableHeightListView
+                    android:id="@+id/listview_peserta"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#00000000"
+                    android:layout_below="@+id/devider_title_peserta"
+                    android:scrollbars="none" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/more_peserta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:background="@drawable/bg_soldout"
+                    android:text="Peserta Lainnya"
+                    android:textSize="16dp"
+                    android:textColor="@color/White"
+                    android:paddingBottom="10dp"
+                    android:paddingTop="10dp"
+                    android:paddingRight="14dp"
+                    android:paddingLeft="14dp"
+                    android:gravity="center"
+                    android:layout_below="@+id/listview_peserta"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textStyle="bold"/>
+
+                <customfonts.MyTextView
+                   android:id="@+id/title_akomodasi"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@+id/more_peserta"
+                   android:text="Akomodasi &amp; Transportasi"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginLeft="10dp"
+                   android:textSize="16dp"
+                   android:textColor="@color/Tex"  />
+
+               <LinearLayout
+                   android:id="@+id/linearakomodasi"
+                   android:layout_width="match_parent"
+                   android:layout_height="wrap_content"
+                   android:layout_below="@id/title_akomodasi"
+                   android:orientation="vertical">
+
+                   <customfonts.MyTextView
+                       android:id="@+id/ket_akomodasi"
+                       android:layout_width="match_parent"
+                       android:layout_height="wrap_content"
+                       android:text="Untuk melihat dokumen akomodasi &amp; transportasi silahkan klik tombol dibawah ini."
+                       android:textColor="@color/Tex"
+                       android:padding="10dp" />
+
+                   <customfonts.MyTextView
+                       android:id="@+id/btn_open_akomodasi"
+                       android:layout_width="wrap_content"
+                       android:layout_height="wrap_content"
+                       android:text="Open Dokumen"
+                       android:paddingTop="10dp"
+                       android:paddingRight="20dp"
+                       android:paddingBottom="10dp"
+                       android:paddingLeft="20dp"
+                       android:layout_marginRight="20dp"
+                       android:layout_gravity="right"
+                       android:background="@drawable/btn_red"
+                       android:textColor="@color/white"
+                       android:textStyle="bold" />
+                </LinearLayout>
+
+                <customfonts.MyTextView
+                    android:id="@+id/title_jadual"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/linearakomodasi"
+                    android:text="Rundown"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginLeft="10dp"
+                    android:textSize="16dp"
+                    android:textColor="@color/Tex"  />
+
+                <elapor.application.com.libs.ExpandableHeightListView
+                    android:id="@+id/listview_jadual"
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:divider="#00000000"
+                    android:layout_below="@+id/title_jadual"
+                    android:scrollbars="none" />
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="10dp"
+                    android:layout_below="@+id/listview_hasil"/>
+
+            </RelativeLayout>
+
+        </ScrollView>
+
+    </RelativeLayout>
+
+    <ProgressBar
+        android:id="@+id/pgbarLoading"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/loadMask"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#80000000"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <TextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/periksa_koneksi"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnReload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_lightgray"
+            android:text="@string/coba_lagi"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

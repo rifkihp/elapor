@@ -1,0 +1,354 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProsesKonfirmasiActivity"
+    android:background="#f8f8f8" >
+
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/toolbar_activity_konfirmasi_pembayaran"></include>
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbar"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rect"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp" >
+
+                <!--****KODE BOOKING****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/registration"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext">
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Registration Code"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:inputType="text"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:id="@+id/edit_registration"
+                            android:selectAllOnFocus="true" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+                <!--****JUMLAH TRANSFER****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/jumlah_transfer"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext">
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Transfer Amount"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:inputType="number"
+                            android:id="@+id/edit_jumlah_transfer" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+                <!--****BANK PENERIMA****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/bank_penerima"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext">
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Destination Bank"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:editable="false"
+                            android:inputType="none"
+                            android:maxLines="1"
+                            android:singleLine="true"
+                            android:id="@+id/edit_bank_penerima" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+                <!--****BANK PENGIRIM****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/bank_pengirim"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext">
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Name of Sending Bank"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:inputType="text"
+                            android:lines="1"
+                            android:id="@+id/edit_bank_pengirim" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+                <!--****NAMA PEMILIK REKENING****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/nama_pemilik_rekening"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext">
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Name of Account Owner"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:inputType="text"
+                            android:id="@+id/edit_nama_pemilik_rekening" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider" />
+                </LinearLayout>
+
+                <!--****PENJELASAN****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/penjelasan"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext" >
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Notes"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:inputType="text"
+                            android:id="@+id/edit_penjelasan" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <customfonts.MyTextView
+                android:layout_below="@+id/linear1"
+                android:id="@+id/bukti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Bank Receipt"
+                android:textColor="@color/textSub"
+                android:gravity="left"
+                android:padding="5dp"
+                android:layout_marginTop="16dp"
+                android:layout_marginBottom="10dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp" />
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_below="@+id/bukti"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rect"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp" >
+
+                <!--*********  BUKTI TRANSFER ***********-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp" >
+
+                    <elapor.application.com.libs.ResizableImageView
+                        android:id="@+id/image_bukti_transfer"
+                        android:layout_width="270dp"
+                        android:layout_height="270dp"
+                        android:layout_centerHorizontal="true"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext"
+                        android:src="@drawable/attachment"
+                        android:scaleType="fitCenter" />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/upload"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_alignRight="@+id/image_bukti_transfer"
+                        android:layout_alignTop="@+id/image_bukti_transfer"
+                        android:layout_margin="10dp"
+                        android:text="UPLOAD"
+                        android:textColor="@color/White"
+                        android:textSize="@dimen/textsub"
+                        android:background="@drawable/btn_red"
+                        android:paddingTop="5dp"
+                        android:paddingBottom="5dp"
+                        android:paddingLeft="10dp"
+                        android:paddingRight="10dp"
+                        android:gravity="center" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <!--****** save and continue **********-->
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_below="@id/linear2"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_margin="16dp" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/submit"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="CONFIRMATION"
+                    android:textColor="@color/White"
+                    android:textSize="@dimen/text"
+                    android:background="@drawable/oneside_roundrect"
+                    android:paddingTop="10dp"
+                    android:paddingBottom="10dp"
+                    android:gravity="center"
+                    android:layout_gravity="right"
+                    android:layout_marginBottom="16dp"/>
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+</RelativeLayout>

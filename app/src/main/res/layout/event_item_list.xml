@@ -1,0 +1,183 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/rect" >
+
+            <elapor.application.com.libs.ResizableImageView
+                android:id="@+id/image"
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:src="@drawable/shoppy_logo"
+                android:layout_marginRight="10dp" />
+
+            <customfonts.MyTextView
+                android:id="@+id/title"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:text="Judul Event Prestasi"
+                android:textSize="15dp"
+                android:textColor="@color/red"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/grup"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:layout_below="@+id/title"
+                android:paddingTop="1dp"
+                android:orientation="horizontal">
+
+                    <customfonts.MyTextView
+                        android:id="@+id/grup_kyorugi"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@+id/title"
+                        android:text="KYORUGI"
+                        android:padding="5dp"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="@drawable/bg_preorder"
+                        android:layout_marginRight="5dp" />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/grup_poomsae"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:padding="5dp"
+                        android:text="POOMSAE"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="@drawable/kirimpesanbg"
+                        android:layout_marginRight="5dp" />
+
+            </LinearLayout>
+
+            <customfonts.MyTextView
+                android:id="@+id/label_lokasi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:layout_below="@+id/grup"
+                android:text="Lokasi:"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub" />
+
+            <customfonts.MyTextView
+                android:id="@+id/lokasi"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/label_lokasi"
+                android:layout_toRightOf="@+id/label_lokasi"
+                android:paddingTop="5dp"
+                android:text="Lokasi"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/Tex"
+                android:textStyle="bold"  />
+
+            <customfonts.MyTextView
+                android:id="@+id/label_tanggal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:layout_below="@+id/label_lokasi"
+                android:text="Tanggal:"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub" />
+
+            <customfonts.MyTextView
+                android:id="@+id/tanggal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/label_tanggal"
+                android:layout_toRightOf="@+id/label_tanggal"
+                android:paddingTop="2dp"
+                android:text="10"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/Tex"
+                android:textStyle="bold"  />
+
+            <customfonts.MyTextView
+                android:id="@+id/label_atlit"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:layout_below="@+id/label_tanggal"
+                android:text="Competitor:"
+                android:paddingTop="2dp"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub" />
+
+            <customfonts.MyTextView
+                android:id="@+id/atlit"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/label_atlit"
+                android:layout_toRightOf="@+id/label_atlit"
+                android:paddingTop="2dp"
+                android:text="10"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/Tex"
+                android:textStyle="bold" />
+
+            <customfonts.MyTextView
+                android:id="@+id/label_pendaftaran"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:layout_below="@+id/label_atlit"
+                android:text="Pendaftaran:"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub" />
+
+            <customfonts.MyTextView
+                android:id="@+id/pendaftaran"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/label_pendaftaran"
+                android:layout_toRightOf="@+id/label_pendaftaran"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:text="10.02.2017"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/Tex"
+                android:textStyle="bold" />
+
+            <customfonts.MyTextView
+                android:id="@+id/label_tutup"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Sudah Tutup"
+                android:layout_alignTop="@+id/label_pendaftaran"
+                android:layout_toRightOf="@+id/label_pendaftaran"
+                android:paddingTop="2dp"
+                android:paddingBottom="5dp"
+                android:textColor="@color/red"
+                android:textSize="@dimen/textsub" />
+
+    </RelativeLayout>
+
+</LinearLayout>

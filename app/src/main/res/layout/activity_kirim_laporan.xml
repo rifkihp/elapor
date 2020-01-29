@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+
+    <FrameLayout
+        android:id="@+id/layout"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentBottom="true"
+        android:layout_alignParentRight="true"
+        android:visibility="visible">
+
+        <SurfaceView
+            android:id="@+id/surfaceView"
+            android:layout_width="match_parent"
+            android:layout_height="match_parent" />
+
+    </FrameLayout>
+
+    <ProgressBar
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/progressBar"
+        android:layout_alignTop="@+id/btnCapture"
+        android:layout_alignRight="@+id/btnCapture"
+        android:layout_alignBottom="@+id/btnCapture"
+        android:layout_alignLeft="@+id/btnCapture"
+        android:visibility="invisible" />
+
+    <customfonts.MyTextView
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:id="@+id/countdown"
+        android:layout_alignTop="@+id/btnCapture"
+        android:layout_alignRight="@+id/btnCapture"
+        android:layout_alignBottom="@+id/btnCapture"
+        android:layout_alignLeft="@+id/btnCapture"
+        android:visibility="invisible"
+        android:textColor="@color/White"
+        android:textSize="32sp"
+        android:text="10"
+        android:gravity="center_vertical|center_horizontal"
+        android:textStyle="bold" />
+
+    <ImageButton
+        android:id="@+id/btnCapture"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/capture_32"
+        android:background="@null"
+        android:contentDescription="Capture"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="10dp"
+        android:visibility="visible" />
+
+    <ImageButton
+        android:id="@+id/btnRecord"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:src="@drawable/start_record"
+        android:background="@null"
+        android:contentDescription="Record"
+        android:scaleType="fitCenter"
+        android:layout_alignParentBottom="true"
+        android:layout_toRightOf="@+id/btnCapture"
+        android:layout_marginBottom="10dp"
+        android:layout_marginLeft="10dp"
+        android:visibility="visible"
+        android:padding="5dp" />
+
+</RelativeLayout>

@@ -1,0 +1,141 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/rect" >
+
+        <com.alexzh.circleimageview.CircleImageView
+            android:id="@+id/image"
+            android:layout_width="80dp"
+            android:layout_height="80dp"
+            android:src="@drawable/userdefault"
+            android:scaleType="fitXY"
+            android:layout_marginRight="10dp" />
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image"
+            android:layout_centerVertical="true">
+
+            <customfonts.MyTextView
+                android:id="@+id/total_juara"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:textColor="@color/white"
+                android:text="Prestasi: 10"
+                android:textSize="@dimen/textsub"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:paddingTop="3dp"
+                android:paddingBottom="3dp"
+                android:background="@drawable/cartnumberbg"
+                android:gravity="center"
+                android:layout_gravity="center_horizontal" />
+
+            <ImageView
+                android:id="@+id/hapus"
+                android:layout_alignTop="@+id/label_wtf_gal"
+                android:layout_alignParentRight="true"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/cross"
+                android:layout_gravity="center"
+                android:layout_marginLeft="5dp"
+                android:layout_marginRight="10dp" />
+
+            <ImageView
+                android:id="@+id/edit"
+                android:layout_alignTop="@+id/label_wtf_gal"
+                android:layout_toLeftOf="@+id/hapus"
+                android:layout_width="15dp"
+                android:layout_height="15dp"
+                android:src="@drawable/edit"
+                android:layout_gravity="center"
+                android:layout_marginRight="10dp" />
+
+            <customfonts.MyTextView
+                android:id="@+id/nama"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="Nama Atlit"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/red"
+                android:textStyle="bold"
+                android:layout_toLeftOf="@+id/total_juara"
+                android:layout_toStartOf="@+id/total_juara" />
+
+            <customfonts.MyTextView
+                android:id="@+id/jenis_kelamin"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/nama"
+                android:text="Laki-laki"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/Tex"
+                android:textStyle="bold"
+                android:paddingTop="1dp" />
+
+            <customfonts.MyTextView
+                android:id="@+id/label_bod"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/jenis_kelamin"
+                android:text="Tanggal Lahir:"
+                android:paddingTop="5dp"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub" />
+
+            <customfonts.MyTextView
+                android:id="@+id/bod"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/label_bod"
+                android:layout_toRightOf="@+id/label_bod"
+                android:text="13-09-1981"
+                android:paddingTop="5dp"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/Tex"
+                android:textStyle="bold"  />
+
+            <customfonts.MyTextView
+                android:id="@+id/label_wtf_gal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/bod"
+                android:text="WTF GAL:"
+                android:paddingTop="1dp"
+                android:paddingRight="5dp"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/textSub" />
+
+            <customfonts.MyTextView
+                android:id="@+id/wtf_gal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_alignTop="@+id/label_wtf_gal"
+                android:layout_toRightOf="@+id/label_wtf_gal"
+                android:text="#11002"
+                android:paddingTop="1dp"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/Tex"
+                android:textStyle="bold"  />
+        </RelativeLayout>
+
+    </RelativeLayout>
+
+</LinearLayout>

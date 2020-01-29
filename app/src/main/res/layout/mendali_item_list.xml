@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp" >
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:background="@drawable/rect" >
+
+            <ImageView
+                android:id="@+id/image"
+                android:layout_width="60dp"
+                android:layout_height="70dp"
+                android:src="@drawable/shoppy_logo"
+                android:layout_marginRight="10dp"
+                android:scaleType="fitXY" />
+
+            <customfonts.MyTextView
+                android:id="@+id/kontingen"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:text="Nama Kontingen"
+                android:textSize="15dp"
+                android:textColor="@color/Tex"
+                android:textStyle="bold"
+                android:layout_marginBottom="5dp" />
+
+            <LinearLayout
+                android:id="@+id/label"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:layout_below="@+id/kontingen"
+                android:paddingTop="1dp"
+                android:orientation="horizontal">
+
+                    <customfonts.MyTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Emas:"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/textSub"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Perak:"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/textSub"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Perunggu:"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/textSub"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp" />
+
+                    <customfonts.MyTextView
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="Total:"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/textSub"
+                        android:textStyle="bold"
+                        android:layout_marginRight="5dp" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/mendali"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_toRightOf="@+id/image"
+                android:layout_below="@+id/label"
+                android:paddingTop="1dp"
+                android:orientation="horizontal">
+
+                    <customfonts.MyTextView
+                        android:id="@+id/emas"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:text="0"
+                        android:padding="5dp"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="@drawable/mendali_emas_bg"
+                        android:layout_marginRight="5dp" />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/perak"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="0"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="@drawable/mendali_perak_bg"
+                        android:layout_marginRight="5dp" />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/perunggu"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="0"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="@drawable/mendali_perunggu_bg"
+                        android:layout_marginRight="5dp" />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/total"
+                        android:layout_width="0dp"
+                        android:layout_height="wrap_content"
+                        android:layout_weight="1"
+                        android:padding="5dp"
+                        android:text="0"
+                        android:textSize="@dimen/textsub"
+                        android:textColor="@color/white"
+                        android:textStyle="bold"
+                        android:background="@drawable/mendali_perak_bg"
+                        android:layout_marginRight="5dp" />
+
+            </LinearLayout>
+
+
+
+    </RelativeLayout>
+
+</LinearLayout>

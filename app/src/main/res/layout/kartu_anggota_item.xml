@@ -1,0 +1,80 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:layout_width="fill_parent"
+	android:layout_height="wrap_content"
+	android:orientation="vertical"
+	android:paddingBottom="5dp"
+	android:paddingLeft="5dp"
+	android:paddingRight="5dp" >
+
+	<RelativeLayout
+		android:layout_width="fill_parent"
+		android:layout_height="wrap_content"
+		android:background="@drawable/card_backgrounds"
+		android:paddingBottom="10dp" >
+
+    <elapor.application.com.libs.ResizableImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+        android:layout_alignParentTop="true"
+		android:layout_margin="5dp"
+		android:background="@drawable/rounded"
+        android:src="@drawable/userdefault" />
+
+    <customfonts.MyTextView
+        android:id="@+id/txtNoItds"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/imgPreview"
+        android:layout_toRightOf="@id/imgPreview"
+        android:text="No. ITDS"
+        android:textColor="@color/oil" />
+
+    <customfonts.MyTextView
+        android:id="@+id/txtNamaAnggota"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtNoItds"
+        android:layout_toRightOf="@+id/imgPreview"
+        android:text="Nama Anggota"
+        android:textColor="@color/oil" />
+
+    <customfonts.MyTextView
+        android:id="@+id/txtTempatTanggalLahir"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtNamaAnggota"
+        android:layout_toRightOf="@+id/imgPreview"
+        android:paddingBottom="10dp"
+        android:text="Tempat, Tanggal Lahir"
+        android:textColor="@color/oil" />
+    
+    <customfonts.MyTextView
+        android:id="@+id/txtPengcab"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtTempatTanggalLahir"
+        android:layout_toRightOf="@id/imgPreview"
+        android:text="Pengcab"
+        android:textColor="@color/oil"
+        android:textSize="12sp" />
+
+    <customfonts.MyTextView
+        android:id="@+id/txtPengprov"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignBottom="@+id/imgPreview"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtPengcab"
+        android:layout_toRightOf="@+id/imgPreview"
+        android:text="Pengprov"
+        android:textColor="@color/oil"
+        android:textSize="12sp" />
+
+	</RelativeLayout>
+</LinearLayout>

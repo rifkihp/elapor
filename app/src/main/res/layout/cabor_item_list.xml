@@ -1,0 +1,30 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/card_background" >
+
+    <LinearLayout
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_alignParentTop="true"
+		android:orientation="horizontal"
+		android:background="@drawable/text" >
+
+		<customfonts.MyTextView
+			android:id="@+id/cabor"
+			android:layout_width="wrap_content"
+			android:layout_height="wrap_content"
+			android:paddingTop="20dp"
+			android:paddingRight="20dp"
+			android:paddingBottom="20dp"
+			android:paddingLeft="10dp"
+			android:text="Laki-laki"
+			android:textColor="@color/category_textcolour"
+			android:textSize="18sp" />
+	</LinearLayout>
+
+
+</RelativeLayout>

@@ -1,0 +1,135 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp" >
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical" >
+
+        <LinearLayout
+            android:id="@+id/linear_tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginBottom="10dp">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:background="@color/Tex">
+
+                <customfonts.MyTextView
+                    android:id="@+id/label_tanggal"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:text="TANGGAL:"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:padding="5dp" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/tanggal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="13-09-2017"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/white"
+                    android:textStyle="bold"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colordevider" />
+
+            <!-- LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <customfonts.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:text="JAM"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/Tex"
+                    android:padding="5dp"
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="ACARA"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/Tex"
+                    android:padding="5dp"
+                    android:textStyle="bold" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colordevider" /  -->
+
+        </LinearLayout>
+
+
+        <LinearLayout
+            android:id="@+id/linear_agenda"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <customfonts.MyTextView
+                    android:id="@+id/jam"
+                    android:layout_width="0dp"
+                    android:layout_weight="0.5"
+                    android:layout_height="wrap_content"
+                    android:text="00:00 - 11:00"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/Tex"
+                    android:padding="5dp" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/acara"
+                    android:layout_width="0dp"
+                    android:layout_weight="1"
+                    android:layout_height="wrap_content"
+                    android:text="Makan-makan"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/Tex"
+                    android:layout_toLeftOf="@+id/download"
+                    android:layout_toStartOf="@+id/download"
+                    android:padding="5dp" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colordevider" />
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

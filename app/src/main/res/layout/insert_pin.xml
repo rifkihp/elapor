@@ -1,0 +1,58 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+                
+	<ScrollView
+	    android:id="@+id/scroll"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content" >
+    
+         <RelativeLayout 
+         	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:padding="10dp" >
+            
+           <customfonts.MyTextView
+		        android:id="@+id/TextView00"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:paddingLeft="10dp"        
+		        android:text="@string/input_pin_label"
+		        android:textStyle="bold" />
+
+    		<customfonts.MyEditText
+        		android:id="@+id/editPin"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/TextView00"
+       	 		android:background="@drawable/textarea"
+        		android:ems="10"
+        		android:inputType="text"
+		        android:paddingBottom="5dp"
+		        android:paddingLeft="15dp"
+		        android:paddingRight="15dp"
+		        android:paddingTop="5dp" >
+
+       		 	<requestFocus />
+    		</customfonts.MyEditText>
+    		
+    		<Button
+    		    android:id="@+id/btnMasuk"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_alignParentRight="true"
+    		    android:layout_below="@+id/editPin"
+    		    android:layout_marginTop="20dp"
+    		    android:background="@drawable/btn_lightblue"
+    		    android:paddingLeft="20dp"
+    		    android:paddingRight="20dp"
+    		    android:text="@string/input_pin_submit"
+    		    android:textColor="@color/white" />
+
+         </RelativeLayout>
+	
+	</ScrollView>
+
+</RelativeLayout>

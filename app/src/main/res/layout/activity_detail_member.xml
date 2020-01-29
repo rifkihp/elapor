@@ -1,0 +1,523 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:orientation="vertical"
+    android:background="@color/water" >
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
+    <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/menu_member_title"
+        android:id="@+id/txtTitle"
+        android:layout_alignParentTop="true"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/title"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp" />
+
+    <customfonts.MyTextView
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/activity_detail_member_title"
+        android:id="@+id/txtSubTitle"
+        android:layout_below="@+id/txtTitle"
+        android:background="@drawable/title"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="5dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" />
+    
+	<ScrollView
+        android:layout_width="fill_parent"
+        android:layout_height="0dp"
+        android:layout_weight="1" 
+        android:layout_marginTop="10dp" >
+
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="wrap_content"
+             >
+
+            <LinearLayout
+                android:id="@+id/linearHeader"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                
+                android:orientation="horizontal"
+                android:layout_margin="10dp"
+                tools:ignore="UselessParent" >
+
+                <elapor.application.com.libs.ResizableImageView
+                    android:id="@+id/header"
+                    android:layout_width="200dp"
+                    android:layout_height="wrap_content"
+                    android:layout_gravity="center_horizontal"
+                    android:src="@drawable/userdefault" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearNamaPeserta"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearHeader"
+                android:layout_margin="10dp"                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/textView1"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_nama_peserta"                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtNama_peserta"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearNoUrut"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearNamaPeserta"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView02"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_no_urut"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtNo_urut"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+
+
+            <LinearLayout
+                android:id="@+id/linearNoRegistrasi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearNoUrut"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView05"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_no_registrasi"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtNo_registrasi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linearTanggalLahir"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearNoRegistrasi"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView06"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_tanggal_lahir"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtTanggal_lahir"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearJenisKelamin"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearTanggalLahir"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView15"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_jenis_kelamin"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtJenis_kelamin"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearSabuk"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearJenisKelamin"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView16"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_sabuk"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtSabuk"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearGrade"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearSabuk"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView17"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_grade"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtGrade"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearUnit"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearGrade"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView18"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_unit"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtUnit"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearBasicMovement"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearUnit"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView07"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_basic_movement"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtBasic_movement"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearPoomsae"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearBasicMovement"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView08"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_poomsae"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtPoomsae"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearKyorugi"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearPoomsae"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView09"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_kyorugi"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtKyorugi"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearHosinsul"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearKyorugi"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView10"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_hosinsul"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtHosinsul"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearKyukpa"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearHosinsul"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView11"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_kyukpa"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtKyukpa"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearNilaiRata"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearKyukpa"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView12"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_nilai_rata_rata"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtNilai_rata_rata"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearNilaiBatasLulus"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearNilaiRata"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView13"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_batas_lulus"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtBatas_lulus"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+            
+            <LinearLayout
+                android:id="@+id/linearHasil"
+                android:layout_width="fill_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/linearNilaiBatasLulus"
+                android:layout_margin="10dp"
+                
+                android:orientation="vertical" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/TextView14"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_margin="5dp"
+                    android:text="@string/detail_hasil_ujian"
+                    
+                    android:textStyle="bold" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/txtHasil"
+                    android:layout_width="fill_parent"
+                    android:layout_height="wrap_content"
+                    
+                    
+                    android:padding="10dp"
+                    android:background="@drawable/textarea" />
+            </LinearLayout>
+        </RelativeLayout>
+    </ScrollView>
+
+</LinearLayout>

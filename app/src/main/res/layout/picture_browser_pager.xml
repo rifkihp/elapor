@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools">
+
+    <ImageView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        app:srcCompat="@drawable/img_produk"
+        android:id="@+id/image" />
+
+
+    <customfonts.MyTextView
+        android:id="@+id/download"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="DOWNLOAD"
+        android:background="@drawable/btn_red"
+        android:textColor="@color/white"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:paddingBottom="10dp"
+        android:paddingTop="10dp"
+        android:paddingRight="20dp"
+        android:paddingLeft="20dp" />
+
+    <!--android:transitionName="picture"
+    tools:ignore="ContentDescription,UnusedAttribute"-->
+
+
+</RelativeLayout>

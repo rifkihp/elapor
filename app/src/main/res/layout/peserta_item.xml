@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:id="@+id/utamaLayout"
+    android:layout_width="fill_parent"
+    android:layout_height="wrap_content"
+    android:paddingBottom="5dp"
+    android:paddingLeft="10dp"
+    android:paddingRight="10dp" >
+
+    <RelativeLayout 
+	    android:layout_width="fill_parent"
+	    android:layout_height="wrap_content"
+	    android:background="@drawable/card_background" >
+
+    <ImageView
+        android:id="@+id/imgPreview"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginRight="10dp"
+        android:layout_marginTop="10dp"
+        android:contentDescription="@string/app_name"
+        android:scaleType="fitXY"
+        android:src="@drawable/userdefault" />
+
+    <customfonts.MyTextView
+        android:id="@+id/txtNoUrut"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_alignTop="@id/imgPreview"
+        android:layout_toRightOf="@id/imgPreview"
+        android:text="@string/nama_peserta"
+        android:textColor="@color/oil"
+        android:textSize="16sp" />
+
+    <customfonts.MyTextView
+        android:id="@+id/txtNamaPeserta"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtNoUrut"
+        android:layout_toRightOf="@+id/imgPreview"
+        android:text="@string/no_reg"
+        android:textColor="@color/oil" />
+
+    <customfonts.MyTextView
+        android:id="@+id/txtHasil"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_below="@+id/txtNamaPeserta"
+        android:layout_marginTop="3dp"
+        android:layout_toRightOf="@+id/imgPreview"
+        android:paddingBottom="10dp"
+        android:text="@string/nilai_rata_rata"
+        android:textColor="@color/oil" />
+
+    <customfonts.MyTextView
+        android:id="@+id/txtTotalScore"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_centerVertical="true"
+        android:background="@drawable/button_bg_round"
+        android:gravity="center_vertical|center_horizontal"
+        android:text="@string/nol"
+        android:textColor="@color/white"
+        android:textSize="25sp"
+        android:textStyle="bold" />
+
+	</RelativeLayout>
+
+</RelativeLayout>

@@ -1,0 +1,112 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical"
+    android:paddingTop="5dp"
+    android:paddingRight="5dp"
+    android:paddingLeft="5dp" >
+
+    <LinearLayout
+        android:id="@+id/linear_kategori"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:layout_marginTop="10dp"
+        android:layout_marginBottom="5dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:background="@color/Tex">
+
+            <customfonts.MyTextView
+                android:id="@+id/label_kategori"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="KATEGORI:"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="5dp" />
+
+            <customfonts.MyTextView
+                android:id="@+id/judul_kategori"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="KYORUGI CADET PUTRA U45"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:padding="5dp" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rect" >
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal"
+            android:layout_margin="10dp" >
+
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content" >
+
+
+                <customfonts.MyTextView
+                    android:id="@+id/title"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Canvera Black Heel"
+                    android:textSize="15dp"
+                    android:textColor="@color/red"
+                    android:textStyle="bold"
+                    android:layout_toLeftOf="@+id/download"
+                    android:layout_toStartOf="@+id/download"
+                    android:paddingRight="5dp" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/keterangan"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_below="@+id/title"
+                    android:text="@string/listdata_alamat"
+                    android:textSize="@dimen/textsub"
+                    android:textColor="@color/textSub"
+                    android:layout_toLeftOf="@+id/download"
+                    android:layout_toStartOf="@+id/download"
+                    android:paddingTop="3dp"
+                    android:paddingRight="5dp" />
+
+                <customfonts.MyTextView
+                    android:id="@+id/download"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_alignParentTop="true"
+                    android:layout_alignParentRight="true"
+                    android:background="@drawable/bg_preorder"
+                    android:text="DOWNLOAD"
+                    android:layout_marginTop="5dp"
+                    android:paddingTop="5dp"
+                    android:paddingBottom="5dp"
+                    android:paddingLeft="10dp"
+                    android:paddingRight="10dp"
+                    android:textColor="#fff"
+                    android:textSize="@dimen/textsub" />
+
+            </RelativeLayout>
+
+        </LinearLayout>
+
+    </LinearLayout>
+
+</LinearLayout>

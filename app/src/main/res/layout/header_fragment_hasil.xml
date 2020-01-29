@@ -1,0 +1,388 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:orientation="vertical">
+
+    <RelativeLayout
+        android:id="@+id/detail_event"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:padding="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:background="@drawable/rect" >
+
+        <elapor.application.com.libs.ResizableImageView
+            android:id="@+id/image"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:src="@drawable/shoppy_logo"
+            android:layout_marginRight="10dp" />
+
+        <customfonts.MyTextView
+            android:id="@+id/title"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image"
+            android:text="Judul Event Prestasi"
+            android:textSize="15dp"
+            android:textColor="@color/red"
+            android:textStyle="bold" />
+
+        <LinearLayout
+            android:id="@+id/grup"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image"
+            android:layout_below="@+id/title"
+            android:paddingTop="1dp"
+            android:orientation="horizontal">
+
+            <customfonts.MyTextView
+                android:id="@+id/grup_kyorugi"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_below="@+id/title"
+                android:text="KYORUGI"
+                android:padding="5dp"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/bg_preorder"
+                android:layout_marginRight="5dp" />
+
+            <customfonts.MyTextView
+                android:id="@+id/grup_poomsae"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:padding="5dp"
+                android:text="POOMSAE"
+                android:textSize="@dimen/textsub"
+                android:textColor="@color/white"
+                android:textStyle="bold"
+                android:background="@drawable/kirimpesanbg"
+                android:layout_marginRight="5dp" />
+
+        </LinearLayout>
+
+        <customfonts.MyTextView
+            android:id="@+id/label_lokasi"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image"
+            android:layout_below="@+id/grup"
+            android:text="Lokasi:"
+            android:paddingTop="5dp"
+            android:paddingRight="5dp"
+            android:textSize="@dimen/textsub"
+            android:textColor="@color/textSub" />
+
+        <customfonts.MyTextView
+            android:id="@+id/lokasi"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/label_lokasi"
+            android:layout_toRightOf="@+id/label_lokasi"
+            android:paddingTop="5dp"
+            android:text="Lokasi"
+            android:textSize="@dimen/textsub"
+            android:textColor="@color/Tex"
+            android:textStyle="bold"  />
+
+        <customfonts.MyTextView
+            android:id="@+id/label_tanggal"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image"
+            android:layout_below="@+id/label_lokasi"
+            android:text="Tanggal:"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:textSize="@dimen/textsub"
+            android:textColor="@color/textSub" />
+
+        <customfonts.MyTextView
+            android:id="@+id/tanggal"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/label_tanggal"
+            android:layout_toRightOf="@+id/label_tanggal"
+            android:paddingTop="2dp"
+            android:text="10"
+            android:textSize="@dimen/textsub"
+            android:textColor="@color/Tex"
+            android:textStyle="bold"  />
+
+        <customfonts.MyTextView
+            android:id="@+id/label_atlit"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image"
+            android:layout_below="@+id/label_tanggal"
+            android:text="Competitor:"
+            android:paddingTop="2dp"
+            android:paddingRight="5dp"
+            android:textSize="@dimen/textsub"
+            android:textColor="@color/textSub" />
+
+        <customfonts.MyTextView
+            android:id="@+id/atlit"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/label_atlit"
+            android:layout_toRightOf="@+id/label_atlit"
+            android:paddingTop="2dp"
+            android:text="10"
+            android:textSize="@dimen/textsub"
+            android:textColor="@color/Tex"
+            android:textStyle="bold" />
+
+        <customfonts.MyTextView
+            android:id="@+id/label_pendaftaran"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_toRightOf="@+id/image"
+            android:layout_below="@+id/label_atlit"
+            android:text="Pendaftaran:"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp"
+            android:paddingRight="5dp"
+            android:textSize="@dimen/textsub"
+            android:textColor="@color/textSub" />
+
+        <customfonts.MyTextView
+            android:id="@+id/pendaftaran"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignTop="@+id/label_pendaftaran"
+            android:layout_toRightOf="@+id/label_pendaftaran"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp"
+            android:text="10.02.2017"
+            android:textSize="@dimen/textsub"
+            android:textColor="@color/Tex"
+            android:textStyle="bold" />
+
+        <customfonts.MyTextView
+            android:id="@+id/label_tutup"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="Sudah Tutup"
+            android:layout_alignTop="@+id/label_pendaftaran"
+            android:layout_toRightOf="@+id/label_pendaftaran"
+            android:paddingTop="2dp"
+            android:paddingBottom="5dp"
+            android:textColor="@color/red"
+            android:textSize="@dimen/textsub" />
+
+    </RelativeLayout>
+
+    <LinearLayout
+        android:id="@+id/linear1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical"
+        android:background="@drawable/rect"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="5dp"
+        android:layout_marginLeft="5dp"
+        android:layout_marginBottom="5dp"
+        android:tag="sticky" >
+
+        <customfonts.MyTextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_below="@+id/more_competitor"
+            android:text="Filter Hasil Pertandingan"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginRight="16dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="16dp"
+            android:textColor="@color/Tex"
+            android:tag="sticky" />
+
+        <!--****DIVISI****-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="5dp"
+            android:layout_marginLeft="10dp"
+            android:tag="sticky" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:tag="sticky" >
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/divisi"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorhint"
+                    android:textColor="@color/colortext"
+                    android:tag="sticky" >
+
+                    <customfonts.MyEditText
+                        android:textSize="@dimen/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Divisi"
+                        android:textColorHint="@color/textSub"
+                        android:textColor="@color/Tex"
+                        android:background="#0000"
+                        android:padding="10dp"
+                        android:gravity="left"
+                        android:editable="false"
+                        android:inputType="none"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:id="@+id/edit_divisi"
+                        android:tag="sticky" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/clear_divisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cross"
+                    android:paddingTop="15dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:tag="sticky" />
+
+                <ImageView
+                    android:id="@+id/pickup_divisi"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/down"
+                    android:padding="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:tag="sticky" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colordevider"
+                android:tag="sticky" />
+        </LinearLayout>
+
+        <!--****KELAS****-->
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="vertical"
+            android:layout_marginRight="10dp"
+            android:layout_marginBottom="10dp"
+            android:layout_marginLeft="10dp"
+            android:tag="sticky" >
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal"
+                android:tag="sticky" >
+
+                <android.support.design.widget.TextInputLayout
+                    android:id="@+id/kelas"
+                    android:layout_width="0dp"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:textColorHint="@color/colorhint"
+                    android:textColor="@color/colortext"
+                    android:tag="sticky" >
+
+                    <customfonts.MyEditText
+                        android:textSize="@dimen/text"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:hint="Kelas"
+                        android:textColorHint="@color/textSub"
+                        android:textColor="@color/Tex"
+                        android:background="#0000"
+                        android:padding="10dp"
+                        android:gravity="left"
+                        android:editable="false"
+                        android:inputType="none"
+                        android:maxLines="1"
+                        android:singleLine="true"
+                        android:id="@+id/edit_kelas"
+                        android:tag="sticky" />
+
+                </android.support.design.widget.TextInputLayout>
+
+                <ImageView
+                    android:id="@+id/clear_kelas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/cross"
+                    android:paddingTop="15dp"
+                    android:paddingRight="10dp"
+                    android:paddingBottom="15dp"
+                    android:paddingLeft="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:tag="sticky" />
+
+                <ImageView
+                    android:id="@+id/pickup_kelas"
+                    android:layout_width="wrap_content"
+                    android:layout_height="match_parent"
+                    android:src="@drawable/down"
+                    android:padding="10dp"
+                    android:layout_gravity="center_vertical"
+                    android:tag="sticky" />
+
+            </LinearLayout>
+
+            <View
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:background="@color/colordevider"
+                android:tag="sticky" />
+        </LinearLayout>
+
+    </LinearLayout>
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="horizontal"
+        android:background="#f2f3f4" >
+
+        <customfonts.MyTextView
+            android:id="@+id/title_competitor"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="Hasil Pertandingan"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="10dp"
+            android:layout_marginLeft="16dp"
+            android:textSize="16dp"
+            android:textColor="@color/Tex" />
+
+        <!-- customfonts.MyTextView
+            android:id="@+id/total_competitor"
+            android:layout_width="0dp"
+            android:layout_weight="1"
+            android:layout_height="wrap_content"
+            android:text="(10 atlits)"
+            android:layout_marginTop="5dp"
+            android:layout_marginRight="16dp"
+            android:textSize="16dp"
+            android:textColor="@color/Tex"
+            android:textStyle="bold" / -->
+    </LinearLayout>
+
+</LinearLayout>

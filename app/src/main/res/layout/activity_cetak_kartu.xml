@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:contentDescription="@string/app_name"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:ignore="UselessParent">
+
+<elapor.application.com.libs.ResizableImageView
+    android:id="@+id/imageKartu"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:layout_above="@+id/loadMask"
+    android:scaleType="fitCenter" />
+
+<ProgressBar
+    android:id="@+id/pgbarLoading"
+    android:layout_width="70dp"
+    android:layout_height="70dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:visibility="gone" />
+
+<LinearLayout
+    android:id="@+id/loadMask"
+    android:layout_width="match_parent"
+    android:layout_height="70dp"
+    android:layout_alignParentBottom="true"
+    android:background="#80000000"
+    android:orientation="vertical"
+    android:visibility="gone" >
+
+    <customfonts.MyTextView
+        android:id="@+id/textView1"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_margin="5dp"
+        android:gravity="center_horizontal"
+        android:text="@string/periksa_koneksi"
+        android:textColor="@color/white" />
+
+    <Button
+        android:id="@+id/btnReload"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal"
+        android:layout_marginBottom="10dp"
+        android:background="@drawable/btn_lightgray"
+        android:text="@string/coba_lagi"
+        android:textColor="@color/white" />
+
+</LinearLayout>
+
+<customfonts.MyTextView
+    android:id="@+id/txtNotFound"
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:layout_alignParentTop="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginTop="22dp"
+    android:text="Data Tidak Ditemukan!"
+    android:visibility="gone" />
+
+<ImageButton
+    android:id="@+id/ibSave"
+    android:layout_width="48dp"
+    android:layout_height="48dp"
+    android:layout_alignParentBottom="true"
+    android:layout_centerHorizontal="true"
+    android:layout_marginBottom="20dp"
+    android:background="@null"
+    android:scaleType="fitCenter"
+    android:src="@drawable/save"
+    android:visibility="gone" />
+
+</RelativeLayout>

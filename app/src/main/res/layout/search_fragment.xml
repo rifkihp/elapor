@@ -1,0 +1,91 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent" >
+    
+    <customfonts.MyTextView
+        android:id="@+id/txtTitle"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:background="@color/lblFromName"
+        android:gravity="center_horizontal"
+        android:padding="10dp"
+        android:text="@string/search_title"
+        android:textColor="@color/white"
+        android:textSize="18sp" />
+                
+	<ScrollView
+	    android:id="@+id/scroll"
+	    android:layout_width="match_parent"
+	    android:layout_height="wrap_content"
+	    android:layout_below="@+id/txtTitle" >
+    
+         <RelativeLayout 
+         	android:layout_width="match_parent"
+    		android:layout_height="wrap_content"
+    		android:padding="10dp" >
+            
+            <customfonts.MyTextView
+    		    android:id="@+id/TextView01"
+    		    android:layout_width="match_parent"
+    		    android:layout_height="wrap_content"
+    		    android:layout_marginTop="10dp"
+    		    android:paddingLeft="10dp"
+    		    android:text="@string/search_setup_ujian"
+    		    android:textStyle="bold" />
+
+    		<Spinner
+        		android:id="@+id/spinnerSetupUjian"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/TextView01" />
+    		
+    		<customfonts.MyTextView
+		        android:id="@+id/TextView00"
+		        android:layout_width="match_parent"
+		        android:layout_height="wrap_content"
+		        android:layout_marginTop="5dp"
+		        android:paddingLeft="10dp"        
+		        android:text="@string/search_katakunci"
+		        android:layout_below="@id/spinnerSetupUjian"
+        		android:textStyle="bold" />
+
+    		<customfonts.MyEditText
+        		android:id="@+id/editNama"
+        		android:layout_width="match_parent"
+        		android:layout_height="wrap_content"
+        		android:layout_below="@+id/TextView00"
+       	 		android:background="@drawable/textarea"
+        		android:ems="10"
+        		android:inputType="text"
+		        android:paddingBottom="5dp"
+		        android:paddingLeft="15dp"
+		        android:paddingRight="15dp"
+		        android:paddingTop="5dp" >
+
+       		 	<requestFocus />
+    		</customfonts.MyEditText>
+    
+    		
+
+    		
+    		
+    		<Button
+    		    android:id="@+id/btnSearch"
+    		    android:layout_width="wrap_content"
+    		    android:layout_height="wrap_content"
+    		    android:layout_alignParentRight="true"
+    		    android:layout_below="@+id/editNama"
+    		    android:layout_marginTop="20dp"
+    		    android:background="@drawable/btn_lightblue"
+    		    android:paddingLeft="20dp"
+    		    android:paddingRight="20dp"
+    		    android:text="@string/search_btn_search"
+    		    android:textColor="@color/white" />
+
+         </RelativeLayout>
+	
+	</ScrollView>
+
+</RelativeLayout>

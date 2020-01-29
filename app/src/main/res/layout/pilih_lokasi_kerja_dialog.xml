@@ -1,0 +1,50 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+	android:orientation="vertical"
+	android:layout_width="match_parent"
+	android:layout_height="wrap_content"
+	android:background="@drawable/card_background" >
+
+    <customfonts.MyTextView
+		android:id="@+id/txtPulogadung"
+	    android:layout_width="wrap_content"
+	    android:layout_height="wrap_content"
+	    android:layout_alignParentLeft="true"
+	    android:layout_alignParentRight="true"
+	    android:layout_alignParentTop="true"
+	    android:layout_centerHorizontal="true"
+	    android:padding="20dp"
+	    android:background="@drawable/text"
+	    android:gravity="center_horizontal"
+	    android:text="DIC Pulogadung"
+	    android:textSize="18sp" />
+
+	<customfonts.MyTextView
+		android:id="@+id/txtKarawang"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/txtPulogadung"
+		android:layout_centerHorizontal="true"
+		android:gravity="center_horizontal"
+		android:padding="20dp"
+		android:text="DIC Karawang"
+		android:textSize="18sp"
+		android:background="@drawable/text" />
+
+
+	<customfonts.MyTextView
+		android:id="@+id/txtMojokerto"
+		android:layout_width="wrap_content"
+		android:layout_height="wrap_content"
+		android:layout_alignParentLeft="true"
+		android:layout_alignParentRight="true"
+		android:layout_below="@+id/txtKarawang"
+		android:layout_centerHorizontal="true"
+		android:gravity="center_horizontal"
+		android:padding="20dp"
+		android:text="DIC Mojokerto"
+		android:textSize="18sp" />
+
+
+</RelativeLayout>

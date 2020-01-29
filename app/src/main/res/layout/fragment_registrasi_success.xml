@@ -1,0 +1,75 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ProsesRegistrasiActivity"
+    android:background="@color/white" >
+
+    <ScrollView
+        android:id="@+id/detail_view"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linear_terimakasih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginLeft="20dp"
+                android:layout_marginRight="20dp"
+                android:layout_marginTop="20dp"
+                android:padding="10dp"
+                android:background="@drawable/rect"
+                android:orientation="vertical">
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Terimakasih!"
+                    android:textSize="20dp"
+                    android:gravity="center"
+                    android:textColor="@color/Tex" />
+
+                <customfonts.MyTextView
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="Registrasi berhasil, silahkan login."
+                    android:textSize="@dimen/text"
+                    android:textColor="@color/textSub"
+                    android:gravity="center" />
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear_kembali"
+                android:layout_below="@id/linear_terimakasih"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:layout_marginTop="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:paddingBottom="16dp" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/selesai"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SELESAI"
+                    android:textSize="15dp"
+                    android:textColor="#fff"
+                    android:padding="10dp"
+                    android:gravity="center"
+                    android:drawableTint="#ffffff"
+                    android:background="@color/red" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>

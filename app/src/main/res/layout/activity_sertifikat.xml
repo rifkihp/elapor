@@ -1,0 +1,94 @@
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/water" >
+
+    <include
+        layout="@layout/toolbar"
+        android:id="@+id/toolbar" />
+
+    <customfonts.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/menu_sertifikat_title"
+        android:id="@+id/txtTitle"
+        android:layout_below="@+id/toolbar"
+        android:textSize="20sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:background="@drawable/title"
+        android:textColor="@color/white"
+        android:padding="10dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="20dp"
+        android:layout_marginTop="10dp"
+        android:layout_marginRight="20dp" />
+
+    <customfonts.MyTextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textAppearance="?android:attr/textAppearanceLarge"
+        android:text="@string/activity_sertifikat_title"
+        android:id="@+id/txtSubTitle"
+        android:layout_below="@+id/txtTitle"
+        android:background="@drawable/title"
+        android:textColor="@color/white"
+        android:textSize="16sp"
+        android:gravity="center_vertical|center_horizontal"
+        android:padding="5dp"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentRight="true"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="5dp"
+        android:layout_marginRight="10dp" />
+
+    <ListView
+        android:id="@+id/listViewSertifikat"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/loadMask"
+        android:layout_below="@+id/txtSubTitle"
+        android:layout_marginTop="10dp"
+        android:divider="@null" >
+
+    </ListView>
+
+    <ProgressBar
+        android:id="@+id/pgbarLoading"
+        android:layout_width="70dp"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true" />
+
+    <LinearLayout
+        android:id="@+id/loadMask"
+        android:layout_width="match_parent"
+        android:layout_height="70dp"
+        android:layout_alignParentBottom="true"
+        android:background="#80000000"
+        android:orientation="vertical"
+        android:visibility="gone" >
+
+        <customfonts.MyTextView
+            android:id="@+id/textView1"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:gravity="center_horizontal"
+            android:text="@string/periksa_koneksi"
+            android:textColor="@color/white" />
+
+        <Button
+            android:id="@+id/btnReload"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center_horizontal"
+            android:layout_marginBottom="10dp"
+            android:background="@drawable/btn_lightgray"
+            android:text="@string/coba_lagi"
+            android:textColor="@color/white" />
+    </LinearLayout>
+
+</RelativeLayout>

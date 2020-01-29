@@ -1,0 +1,510 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#f8f8f8" >
+
+    <ScrollView
+        android:id="@+id/scroll"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:scrollbars="none" >
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <LinearLayout
+                android:id="@+id/linear0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rect"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp" >
+
+                <!--****NAMA****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/nama"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext">
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Nama"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_nama"
+                            android:inputType="text" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+
+                </LinearLayout>
+
+                <!--****BAGIAN / DEPT****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/bagian"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext">
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Bagian / Departemen"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_bagian"
+                            android:inputType="text"  />
+
+                        </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+
+                </LinearLayout>
+
+                <!-- LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/pihak"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext" >
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Pihak"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_pihak"
+                            android:inputType="none"
+                            android:editable="false" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+            </LinearLayout>
+            <LinearLayout
+                android:id="@+id/linear1"
+                android:layout_below="@+id/linear0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rect"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp" >
+
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/alamat"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext" >
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Alamat"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_alamat"
+                            android:inputType="text" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/nohp"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext" >
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="No. Handphone"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_nohp"
+                            android:inputType="phone" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/tanggal_lahir"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext">
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Tanggal Lahir"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_tanggal_lahir"
+                            android:inputType="none"
+                            android:editable="false"   />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/comdiv"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext" >
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Via Depo / Comdiv"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_comdiv"
+                            android:inputType="text" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear2"
+                android:layout_below="@+id/linear1"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rect"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp" -->
+
+                <!--****USER ID****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginTop="10dp"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/userid"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext" >
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="User Id"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_userid"
+                            android:inputType="text" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+                <!--****PASSWORD****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/password"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext" >
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Password"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_password"
+                            android:inputType="textPassword" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+                <!--****KONFIRMASI PASSWORD****-->
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_marginRight="10dp"
+                    android:layout_marginBottom="10dp"
+                    android:layout_marginLeft="10dp" >
+
+                    <android.support.design.widget.TextInputLayout
+                        android:id="@+id/konfirmasi"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext" >
+
+                        <customfonts.MyEditText
+                            android:textSize="@dimen/text"
+                            android:layout_width="match_parent"
+                            android:layout_height="wrap_content"
+                            android:hint="Password Confirmation"
+                            android:textColorHint="@color/textSub"
+                            android:textColor="@color/Tex"
+                            android:background="#0000"
+                            android:padding="10dp"
+                            android:gravity="left"
+                            android:lines="1"
+                            android:id="@+id/edit_konfirmasi"
+                            android:inputType="textPassword" />
+
+                    </android.support.design.widget.TextInputLayout>
+
+                    <View
+                        android:layout_width="match_parent"
+                        android:layout_height="1dp"
+                        android:background="@color/colordevider"/>
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear3"
+                android:layout_below="@+id/linear0"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:background="@drawable/rect"
+                android:layout_marginRight="16dp"
+                android:layout_marginLeft="16dp"
+                android:layout_marginTop="16dp" >
+
+                <!--*********  PHOTO PROFIL ***********-->
+                <RelativeLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:orientation="vertical"
+                    android:layout_margin="16dp" >
+
+                    <com.alexzh.circleimageview.CircleImageView
+                        android:id="@+id/image_user_profile"
+                        android:layout_width="170dp"
+                        android:layout_height="170dp"
+                        android:layout_centerHorizontal="true"
+                        android:textColorHint="@color/colorhint"
+                        android:textColor="@color/colortext"
+                        android:src="@drawable/user_icon"
+                        android:scaleType="fitCenter" />
+
+                    <customfonts.MyTextView
+                        android:id="@+id/upload"
+                        android:layout_below="@+id/image_user_profile"
+                        android:layout_width="wrap_content"
+                        android:layout_height="wrap_content"
+                        android:layout_centerHorizontal="true"
+                        android:layout_margin="10dp"
+                        android:text="UPLOAD"
+                        android:textColor="@color/White"
+                        android:textSize="@dimen/text"
+                        android:background="@drawable/btn_red"
+                        android:paddingTop="10dp"
+                        android:paddingBottom="10dp"
+                        android:paddingLeft="20dp"
+                        android:paddingRight="20dp"
+                        android:gravity="center" />
+
+                </RelativeLayout>
+            </LinearLayout>
+
+            <LinearLayout
+                android:id="@+id/linear4"
+                android:layout_below="@id/linear3"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical"
+                android:padding="16dp" >
+
+                <customfonts.MyTextView
+                    android:id="@+id/save"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:text="SUBMIT"
+                    android:textColor="@color/White"
+                    android:textSize="@dimen/text"
+                    android:background="@color/red"
+                    android:paddingTop="15dp"
+                    android:paddingBottom="15dp"
+                    android:gravity="center" />
+            </LinearLayout>
+
+        </RelativeLayout>
+    </ScrollView>
+
+</RelativeLayout>
